@@ -1,7 +1,7 @@
 # Python Installation Guide
 
 For this tutorial, you will need to have Anaconda installed with a couple extra python packages that we will need to add. 
-    • If you haven't already, please visit https://www.anaconda.com/download/ and download a version of Anaconda with python 3.7
+    • If you haven't already, visit https://www.anaconda.com/download/ and download a version of Anaconda with python 3.7
     • Next run the Anaconda.exe installer on your PC. If possible, set Anaconda as your default python if you are prompted to. 
     • Open a command prompt and enter:  
     
@@ -10,10 +10,9 @@ For this tutorial, you will need to have Anaconda installed with a couple extra 
     • If your browser opens automatically with no issues, then the installation was successful! You can close it once you 
     are done. 
     • Next we will need to install OpenCV and the additional libraries. Open an Anaconda Prompt  (type anaconda in your 
-    OS search bar). 
-    We will need to create a specific environment in Conda. We can name it py_tutorial. 
-    In this environment, we’ll have to change our version of python to make it work with OpenCV. 
-      Enter:
+    OS search bar). We will need to create a specific environment in Conda. We can name it py_tutorial. In this environment,
+    we’ll have to change our version of python to make it work with OpenCV. 
+    Enter:
       
  	conda create --name py_tutorial python=3.5 
 	activate py_tutorial  
