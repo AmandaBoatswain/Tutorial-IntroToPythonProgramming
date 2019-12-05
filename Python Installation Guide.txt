@@ -9,7 +9,8 @@ For this tutorial, you will need to have Anaconda installed with a couple extra 
     
     • If your browser opens automatically with no issues, then the installation was successful! You can close it once you are done. 
     • Next we will need to install OpenCV and the additional libraries. Open an Anaconda Prompt  (type anaconda in your OS search bar). 
-    We will need to create a specific environment in Conda. We can name it py_tutorial. In this environment, we’ll have to change our version of python to make it work with OpenCV. 
+    We will need to create a specific environment in Conda. We can name it py_tutorial. 
+    In this environment, we’ll have to change our version of python to make it work with OpenCV. 
       Enter:
       
  	conda create --name py_tutorial python=3.5 
