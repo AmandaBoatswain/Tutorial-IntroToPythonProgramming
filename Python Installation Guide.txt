@@ -13,12 +13,13 @@ For this tutorial, you will need to have Anaconda installed with a couple extra 
       Enter:
       
  	conda create --name py_tutorial python=3.5 
-	activate py_tutorial  (Please make sure your environment is activated before running the following commands!)
+	activate py_tutorial  
 	
     • You should see: 
     
     	(py_tutorial)  C:\Users\YourName 
-	
+     
+    • IMPORTANT: Please make sure your environment is activated before running the following commands!
     • Next install the following libraries in the environment using the commands (this whole process should take about 5-6 minutes):
     
 	conda install numpy
