@@ -1,0 +1,33 @@
+Python Installation Guide
+For tomorrow's tutorial, you will need to have Anaconda installed with a couple extra python packages that we will need to add. 
+    • If you haven't already, please visit https://www.anaconda.com/download/ and download a version of Anaconda with python 3.7
+    • Next run the Anaconda.exe installer on your PC. If possible, set Anaconda as your default python if you are prompted to. 
+    • Next, open a command prompt and enter:  jupyter notebook 
+    • If your browser opens automatically with no issues, then the installation was successful! You can close it once you are done. 
+    • Next we will need to install OpenCV and the additional libraries. Open an Anaconda Prompt  (type anaconda in your OS search bar).  We will need to create a specific environment in Conda. We can name it py_tutorial. In this environment, we’ll have to change our version of python to make it work with OpenCV. Enter:
+ 	conda create --name py_tutorial python=3.5 
+	activate py_tutorial  (Please make sure your environment is activated before running the following commands!)
+    • You should see (py_tutorial)  C:\Users\YourName  appear on your screen. 
+    • Next install the following libraries in the environment using the commands (this whole process should take about 5-6 minutes):
+	conda install numpy
+	conda install matplotlib 
+	conda install anaconda-client
+	conda install nb_conda 
+	pip install imutils 
+	conda install -c conda-forge opencv
+	for mac users: conda install -c conda-forge opencv
+    • Now, enter python and check that OpenCV (most recent version to this date = 4.1.2) is installed.
+	(py_tutorial) C:\Users\Student>python
+	>>>import cv2
+	>>>cv2.__version__
+	'4.1.2'
+    • Cool! You can exit back into the environment by pressing ctrl+ c
+    • Enter: jupyter notebook 
+    • And open the folder with the files from today's tutorial
+    • The last thing we have to do is make sure that our code will be executed in the environment we created with all of our packages. Click on the kernel tab and select the change kernel option. It should be set to Python [conda env:py_tutorial].
+    • You're all set! If you need any extra help installing opencv for your device you make check out these resources: 
+    • Installing OpenCV on Windows: https://chrisconlan.com/installing-python-opencv-3-windows/
+    • https://www.learnopencv.com/install-opencv-3-and-dlib-on-windows-python-only/
+    • For Mac Users (Step 4b onwards): https://medium.com/init27-labs/installation-of-opencv-using-anaconda-mac-faded05a4ef6
+
+
